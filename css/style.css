@@ -1,0 +1,101 @@
+/* 共通要素 ----------------- */
+
+/* フォント指定 */
+
+body{
+    font-family: "Noto Sans JP", sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+        background: url(../img/nekohaike.jpg);
+    background-size: 500px auto;
+}
+
+/* リンク */
+a{
+    color:#AAAAAA;
+    text-decoration: underline;
+}
+a:hover{
+    color:#CCCCCC;
+    text-decoration: underline;
+}
+
+/* header ---------------------- */
+header{
+    margin-top: 24px;
+    margin-bottom: 64px;
+    text-align: center;
+    color: aliceblue
+}
+header h1{
+    font-size: 46px;
+}
+
+/* main ---------------------- */
+#main{
+    width: 1400px;
+    height: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -80px;
+    background-size: cover;
+}
+
+
+/* profile */
+.profile{
+    text-align: center;
+    color:aliceblue
+}
+.profile h2{
+    font-size: 30px;
+        margin-bottom: 30px;
+}
+.profile h3{
+    font-size: 20px;
+        margin-bottom: 20px;
+}
+.profile p{
+    margin-bottom: 200px;
+}
+
+/* nav ------------------------ */
+#activiy{
+    text-align: center;
+    margin-bottom: 64px;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#activiy a{
+    text-decoration: none;
+        color: darkblue;
+    margin-top: 50px;
+            
+}
+#activiy a:hover{
+    text-decoration: none;
+        color: aquamarine
+}
+#activiy img{
+    width: 300px;
+    display: flex; /*子要素が横に並ぶ*/
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
